@@ -1,0 +1,253 @@
+---
+name: Nocturne Serenity
+colors:
+  surface: '#0c1323'
+  surface-dim: '#0c1323'
+  surface-bright: '#32394b'
+  surface-container-lowest: '#070e1e'
+  surface-container-low: '#151b2c'
+  surface-container: '#191f30'
+  surface-container-high: '#232a3b'
+  surface-container-highest: '#2e3446'
+  on-surface: '#dce2f9'
+  on-surface-variant: '#c3c6d7'
+  inverse-surface: '#dce2f9'
+  inverse-on-surface: '#2a3042'
+  outline: '#8d90a0'
+  outline-variant: '#434655'
+  surface-tint: '#b4c5ff'
+  primary: '#b4c5ff'
+  on-primary: '#002a78'
+  primary-container: '#2563eb'
+  on-primary-container: '#eeefff'
+  inverse-primary: '#0053db'
+  secondary: '#a2e7ff'
+  on-secondary: '#003642'
+  secondary-container: '#00d2fd'
+  on-secondary-container: '#005669'
+  tertiary: '#ffb95f'
+  on-tertiary: '#472a00'
+  tertiary-container: '#996100'
+  on-tertiary-container: '#ffeedd'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#b4c5ff'
+  on-primary-fixed: '#00174b'
+  on-primary-fixed-variant: '#003ea8'
+  secondary-fixed: '#b4ebff'
+  secondary-fixed-dim: '#3cd7ff'
+  on-secondary-fixed: '#001f27'
+  on-secondary-fixed-variant: '#004e5f'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#0c1323'
+  on-background: '#dce2f9'
+  surface-variant: '#2e3446'
+typography:
+  headline-xl:
+    fontFamily: IBM Plex Sans
+    fontSize: 34px
+    fontWeight: '700'
+    lineHeight: 44px
+  headline-xl-mobile:
+    fontFamily: IBM Plex Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 26px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 30px
+  headline-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 17px
+    fontWeight: '600'
+    lineHeight: 26px
+  body-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 17px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-lg:
+    fontFamily: IBM Plex Sans
+    fontSize: 15px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-md:
+    fontFamily: IBM Plex Sans
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: IBM Plex Sans
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+  quran-display:
+    fontFamily: Noto Serif
+    fontSize: 28px
+    fontWeight: '400'
+    lineHeight: 54px
+  quran-display-mobile:
+    fontFamily: Noto Serif
+    fontSize: 22px
+    fontWeight: '400'
+    lineHeight: 46px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies a nocturnal sanctuary—a contemplative, sacred digital atmosphere designed specifically for contemporary Muslim Android users. Rooted in deep midnight tones, celestial blue luminescence, and restrained warm gold accents, it moves away from stereotypical ornate green-and-gold kitsch toward a serene, ultra-modern celestial aesthetic.
+
+The visual direction merges **Modern Material 3 Architectural Clarity** with **Refined Spiritual Minimalism**. Surfaces feel like frosted obsidian illuminated by soft stellar radiance. Every interaction must evoke stillness, dignity, and mindfulness:
+- **Tone:** Tranquil, pious, precise, effortless, and reverent.
+- **Audience:** Global smartphone users seeking an uncluttered, distraction-free environment for daily prayer times, Quranic recitation, Athkar, and Qibla navigation.
+- **Sensory Metaphor:** Midnight desert skies under starlight; clarity in darkness; sacred geometry rendered with micro-delicate luminescent lines.
+
+## Colors
+
+The palette relies on deep, non-fatiguing dark levels paired with energetic bioluminescent and astral focal points. It prioritizes OLED battery efficiency and dark-room readability during Fajr, Tahajjud, and late-night contemplation.
+
+### Surface System
+- **Canvas Base (`#050B1B`):** Deepest midnight tone. Applied to root scaffold, status bar regions, and master viewport underlays.
+- **Surface Level 1 (`#0B1428`):** Rich slate navy. Applied to top app bars, secondary section panels, and bottom navigation rails.
+- **Surface Level 2 / Container (`#111B32`):** Elevated navy slate container. Used for cards, sheets, dialog surfaces, and interactive list groups.
+- **Surface Level 3 / Active Card (`#1A2744`):** Focused prayer time cards, selected item tiles, and highlighted Quranic ayahs.
+
+### Accents & Spiritual Hierarchy
+- **Primary Celestial Blue (`#2563EB`):** High-confidence interaction state, active tab indicators, primary action triggers, and completed daily milestones.
+- **Electric Cyan (`#00D4FF`):** Next upcoming prayer countdown timer, Qibla compass needle head, live audio wave trackers, and sacred glow borders.
+- **Sacred Gold Tier:** 
+  - Base: `#F59E0B` (Amber gold for bookmark flags, Sajdah markers, completed Juz rings).
+  - Illumination: `#FCD34D` (Soft starlight gold for highlighted Allah/Prophetic names, Quranic surah frames, and Eid/Jummah badges).
+
+### Typography & Border Colors
+- **Text Primary (`#F8FAFC`):** Maximum legibility for Quranic script, Arabic body text, and major numerals.
+- **Text Secondary (`#94A3B8`):** Neutral slate for Gregorian dates, translations, reciter credits, and prayer time sub-labels.
+- **Text Subtle (`#475569`):** Inactive icons, subtle divider markers, and unselected tab labels.
+- **Perceptual Outline (`rgba(255, 255, 255, 0.08)`):** Hairline precision borders defining containers without harsh visual breaks.
+
+## Typography
+
+Typography prioritizes Arabic Right-to-Left (RTL) reading mechanics, typographic balance across Tashkeel (harakat), and Android system rendering engines.
+
+### Typeface Roles
+- **Primary Arabic & Latin UI Font:** `IBM Plex Sans` (specifically IBM Plex Sans Arabic in implementation). It features balanced vertical ascenders and descenders that gracefully house complex diacritics without clipping, remaining razor-sharp at high pixel densities.
+- **Quranic & Sacred Text Font:** `Noto Serif` (specifically Noto Naskh Arabic / Amiri in native runtime). Engineered with traditional calligraphic flow, ample vertical stanza spacing, and harmonious Harakat placement.
+
+### Typesetting Rules for RTL & Arabic
+- **Line Heights:** Arabic typography requires at least 25% to 40% taller line-height compared to Latin typography to prevent Tashkeel collision. Quranic display layers strictly enforce a minimum `46px` to `54px` line-height.
+- **Numerals:** Support both Eastern Arabic Numerals (`٠١٢٣٤٥٦٧٨٩`) and Western Arabic Numerals (`0123456789`) depending on regional preferences, with monospaced digit widths for prayer countdown clocks.
+- **No Artificial Letter Spacing:** Arabic script relies on fluid cursiveness (kashida). `letter-spacing` is set strictly to `0` across all Arabic text levels to avoid glyph disconnection.
+
+## Layout & Spacing
+
+The layout adheres to Android native ergonomics, Jetpack Compose Material 3 standards, and thumb-zone reachability on tall 20:9 and 19.5:9 mobile viewports.
+
+### Rhythm & Density
+- **Base Grid:** Strict 8dp grid system with a 4dp micro-step for fine padding, badges, and icon margins.
+- **Edge Margin:** 16dp (`1rem`) horizontal screen padding on standard smartphones, expanding to 24dp on foldable inner screens and tablets.
+- **Touch Target Enclosure:** All interactive elements (prayer time bell icons, audio controls, Tasbeeh taps, ayah action triggers) enforce a strict minimum touch boundary of `48dp x 48dp` (Android A11y standard).
+
+### Viewport Adaptation & Architecture
+- **Mobile Portrait (Default):** Single primary column with fluid full-width cards. Core actions sit in the lower screen third.
+- **Foldable / Tablet:** 2-column master-detail split (e.g., Surah index on start edge, Ayah reading stage on end edge).
+- **RTL Fluidity:** Layout matrices, horizontal scroll reels, icon paddings, and navigation flows invert natively with RTL system locale. Start is right; End is left.
+
+## Elevation & Depth
+
+Rather than conventional murky drop-shadows, this design system establishes elevation via **Luminous Layering** and **Atmospheric Tonal Gradients**.
+
+### Elevation Tiers
+- **Tier 0 (Base Canvas - `#050B1B`):** Ground level. No shadow or outline.
+- **Tier 1 (Surface Containers - `#111B32`):** Framed with a delicate perimeter outline of `rgba(255, 255, 255, 0.08)`. Subtle diffuse ambient light: `0px 4px 20px rgba(0, 0, 0, 0.35)`.
+- **Tier 2 (Active & Hero Cards - Next Prayer Hero):** Backed with an atmospheric radial glow originating from the primary or secondary color: `radial-gradient(ellipse at top end, rgba(0, 212, 255, 0.12), transparent 70%)`. Outline increases to `rgba(0, 212, 255, 0.25)`.
+- **Tier 3 (Floating Sheets & Dialogs):** `#111B32` blended over `#050B1B` with 24dp blur backdrop filtering (`Material 3 ModalBottomSheet`), elevated with `0px 12px 32px rgba(0, 0, 0, 0.6)`.
+
+### Optical Depth Rules
+- Never use pure black shadows (`#000000`) on colored surfaces; shadows are tinted with dark navy (`#020611`).
+- The Qibla Compass and Circular Tasbeeh components utilize subtle concentric outline rings with diminishing opacities (`0.15` down to `0.04`) to create infinite spatial depth.
+
+## Shapes
+
+The shape system leverages organic, architectural curves reminiscent of contemporary dome geometry and smoothed masonry, avoiding cold harsh angles while remaining structurally disciplined.
+
+### Corner Radii Guidelines
+- **Core Cards & Prayer Blocks:** 20dp to 24dp corner radii (`rounded-xl`), creating soft, handheld-friendly surfaces.
+- **Inner Interactive Items & List Rows:** 12dp to 16dp corner radii (`rounded-lg`).
+- **Pills & Chips:** Fully circular 9999dp pill forms for prayer tags, audio playback badges, and filtering tabs.
+- **Quran Ayah Action Trays:** 16dp rounded bottom sheets hugging content cleanly.
+
+## Components
+
+### 1. Buttons
+- **Primary Button (Filled Electric):** Height 52dp. Solid background in `#2563EB` or linear gradient from `#2563EB` to `#1D4ED8`. Text in `#F8FAFC` (Label Lg). Corner radius 16dp. Active ripple effect tinted with `#00D4FF` at 15% opacity. Minimum touch area 52dp x 52dp.
+- **Secondary / Ghost Button:** Background `rgba(255, 255, 255, 0.05)`, border 1dp `rgba(255, 255, 255, 0.12)`, text `#F8FAFC`.
+- **Spiritual Sacred Action Button (e.g., Khatm Quran / Sadaqah):** Gold accent border `#F59E0B` with 12% `#F59E0B` tonal fill.
+
+### 2. Cards & Prayer Time Modules
+- **Standard Card:** Background `#111B32`, border 1dp `rgba(255, 255, 255, 0.08)`, padding 16dp, corner radius 20dp.
+- **Hero "Next Prayer" Card:** Dynamic status surface featuring next Salah name (Fajr, Dhuhr, Asr, Maghrib, Isha), live countdown in monospaced digits, and Qibla angle. Background is elevated `#111B32` with an ambient top-end sheen of `#00D4FF` (10% opacity) and 1dp border `#00D4FF` at 25% opacity.
+
+### 3. Bottom Navigation Bar (5 Items)
+- **Structure:** 80dp Material 3 Navigation Bar docked to the bottom window safe inset. Background `#0B1428` with top hairline border `rgba(255, 255, 255, 0.06)`.
+- **Items:** 
+  1. الرئيسية (Home / Prayer)
+  2. القرآن (Noble Quran)
+  3. الأذكار (Athkar & Tasbeeh)
+  4. القبلة (Qibla Compass)
+  5. المزيد (Settings / Tools)
+- **Active State:** 64dp wide pill container in `#2563EB` with 20% opacity, icon tinted `#00D4FF`. Inactive icons `#94A3B8`.
+
+### 4. Chips & Category Filters
+- Height 36dp. Pill-shaped (9999dp).
+- **Inactive:** `#0B1428` background with 1dp border `rgba(255, 255, 255, 0.08)`. Text `#94A3B8`.
+- **Active:** Background `#2563EB` with `#F8FAFC` text and zero border.
+
+### 5. Lists & Ayah Rows
+- Continuous items spaced by 8dp gaps within cards, or clean edge-to-edge list rows separated by 1dp `rgba(255, 255, 255, 0.04)` dividers.
+- **Ayah Row Specifics:** Arabic text placed right-aligned (RTL primary), accompanied by gold circular Ayah index badge (`#F59E0B` glyph frame). Translation stacked beneath in `#94A3B8` (Body Md). Tapping triggers a discreet bottom action sheet for Tafsir, Audio playback, and Bookmarking.
+
+### 6. Inputs & Search Fields
+- Height 56dp. Surface `#0B1428`, corner radius 16dp, border 1dp `rgba(255, 255, 255, 0.08)`.
+- Focused state transitions border to `#2563EB` with a 2dp outer cyan aura (`rgba(0, 212, 255, 0.2)`). Leading search icon positioned on the right edge in RTL.
+
+### 7. Circular Digital Tasbeeh Counter
+- Centered circular touch surface (220dp x 220dp) with layered pulsating borders (`#00D4FF` and `#2563EB`).
+- Haptic feedback integration (Android HapticFeedbackConstants.CONFIRM) on each increment. Total count displayed in large 40dp bold typography in `#F8FAFC`.

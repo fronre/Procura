@@ -1,0 +1,6 @@
+{
+  "name": "Nocturne Serenity",
+  "description": "Contemplative celestial Islamic sanctuary for prayer times, Holy Quran recitation, digital tasbeeh, and live Qibla navigation with nocturnal aesthetics.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
